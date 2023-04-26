@@ -9,6 +9,6 @@ spec:
     - image: surpreetsingh/first-docker-app
       name: nodewebapp
       ports:
-        - containerPort: 8080
+        - containerPort: 3000
   dnsPolicy: ClusterFirst
   restartPolicy: Always
