@@ -9,7 +9,7 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY Task2.1.html Task2.1.js ./
+COPY Task2.1.html Task2.1.sh ./
 
 EXPOSE 3000
-CMD ["node", "Task2.1.js"]
+CMD ["node", "Task2.1.sh"]
